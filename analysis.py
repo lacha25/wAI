@@ -9,10 +9,16 @@ from transformers import pipeline
 from sentence_transformers import SentenceTransformer, util
 import numpy as np
 import requests
+import os
+from dotenv import load_dotenv
 
+# Load environment variables from .env file
+load_dotenv()
+
+# Use the loaded environment variable
+API_TOKEN = os.getenv("API_TOKEN")
 # Hugging Face Inference API URL and API Token
 API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2"
-API_TOKEN = "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"  # Replace with your actual Hugging Face API token
 
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
