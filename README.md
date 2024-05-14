@@ -1,7 +1,7 @@
 # Sentiment Analysis App (wAI : who am I ?)
 
 ## Description
-This application performs sentiment analysis on Instagram messages. It is poorly made, i just thought that the idea was interesting enough to give it a try free to re-use the idea and improve it. It is supposed to analyzes the behavior and sentiment of participants based on their messages. The app uses the Hugging Face Inference API and various NLP libraries for text processing and analysis:
+This application performs sentiment analysis on Instagram messages. It is poorly made, i just thought that the idea was interesting enough to give it a try, feel free to re-use the idea and improve it. It is supposed to analyzes the behavior and sentiment of participants based on their messages. The app uses the Hugging Face Inference API and various NLP libraries for text processing and analysis:
 Mistral-7B-Instruct-v0.2 and cardiffnlp/twitter-roberta-base-sentiment-latest
 
 ## Installation
